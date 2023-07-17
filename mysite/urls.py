@@ -19,4 +19,7 @@ from myapp.views import *
 urlpatterns = [
     # Add your path here
     path('admin/', admin.site.urls),
+    path('loaddata/', loadData),
+    path('', listData),
+    path('searchBook', searchCourse)
 ]
